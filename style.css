@@ -1,0 +1,264 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h1,
+h2,
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+
+}
+
+h4 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-me {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-me {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-links {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.homepage-links:hover{
+  text-transform: uppercase;
+}
+.yoga-link{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 12px 6px;
+  color: white;
+}
+.yoga-link:hover{
+  text-transform: uppercase;
+  color: white;
+}
+.yoga-app{
+  margin-bottom: 10px
+}
+.figma-link{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 12px 6px;
+  color: white;
+}
+.figma-link:hover{
+  text-transform: uppercase;
+  color: white;
+}
+.figma-link{
+  margin-bottom: 10px
+}
+
+.paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.paragraphs p {
+  margin: 10px;
+}
+.yoghurt-link{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  border-radius: 4px;
+  padding: 12px 6px;
+  border: 1px solid var(--primary-color);
+  
+}
+.yoghurt-link:hover{
+  text-transform: uppercase;
+}
+.yoghurt-app{
+  margin-bottom: 10px
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-transform: uppercase;
+  
+}
+.weather-link{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 12px 6px;
+  background: var(--primary-color);
+  
+}
+.weather-link:hover{
+  text-transform: uppercase;
+  color: #f5f2fe;
+}
+.weather-app{
+  margin-bottom: 10px
+}
+@media(max-width:800px) {
+  h2{
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (min-width:400px) {
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+/* :root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h2 {
+  font-size: 48px;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.paragrapghs p {
+  margin: 10px;
+}
+
+.paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-me {
+  border: 2px solid #c59eff;
+  padding: 15px;
+  background-color: var(--primary-color);
+  color: white;
+}
+.about-me {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.homepage-links {
+  color: var(--primary-color);
+  display: block;
+}
+h1 {
+  margin: 0 auto;
+  font-size: 96px;
+}
+h4 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+} */
