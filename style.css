@@ -2,173 +2,105 @@
   --contact-color: #f5f2fe;
   --secondary-color: #6c63ff;
   --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
-  --default-font-family:  "poppins" sans-serif;
+  --default-font-family: "poppins" sans-serif;
 }
 
 body {
   margin: 60px auto;
   /* max-width: 800px; */
   font-family: "poppins" sans-serif;
-  background: beige;
 }
+
 p {
   font-family: var(--heading-font-family);
   font-weight: normal;
 }
+
 .header {
   background: var(--contact-color);
-  text-align: center ;
+  text-align: center;
   padding: 160px 20px;
 }
+
 .header p {
   font-family: var(--heading-font-family);
   color: #272142;
   margin: 0;
   font-size: 36px;
 }
-.header h2{
+
+.header h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
-
 }
 
-h1, h2, h3, h4, h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
+
 h1 {
   font-size: 56px;
 }
-.btn-contact{
+
+.btn-contact {
   font: 18px;
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
   padding: 18px 30px;
   line-height: 27px;
-
 }
-h2{
+
+h2 {
   font-weight: 64px;
 }
-p{
+
+p {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
 }
+
 .btn-classic {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   color: var(--secondary-color);
-  border: 1px  solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
+
 .project-detail {
   padding: 120px 60px;
-
 }
-@media  (max-width: 900px) {
+
+@media (max-width: 900px) {
   .project-detail {
-  padding: 0;
-  text-align: center;
+    padding: 0;
+    text-align: center;
   }
+
   h1 {
     font-size: 44px;
     line-height: 1.5;
   }
-h2 {
-  font-size: 44px;
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .header {
+    padding: 80px 20px;
+  }
 }
-.header {
-  padding: 80px 20px;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* h1,
 h2,
