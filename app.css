@@ -1,0 +1,252 @@
+
+:root {
+  --heading-color: #759196;
+  --paragraph-color: #315c61;
+  --accent-color: #d1b02b;
+  --background-color: #f3f1ee;
+  --heading-font-family: "Montserrat", sans-serif;
+  --sub-heading-font-family: "Lora", serif;
+  --default-font-family: "Hind Madurai", sans-serif;
+}
+
+body {
+  color: var(--paragraph-color);
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color);
+  font-family: var(--sub-heading-font-family);
+  font-style: italic;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--paragraph-color);
+  cursor: pointer;
+}
+
+.button {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: var(--sub-heading-font-family);
+  font-size: 18px;
+  font-style: italic;
+  padding: 5px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+nav li {
+  display: inline;
+  line-height: 60px;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  color: var(--paragraph-color);
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--accent-color);
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+/* .contact-page .content {
+  margin-right: 90px;
+} */
+
+.content-container {
+  padding: 90px 30px 30px;
+}
+
+.content-container h2 {
+  font-size: 38px;
+}
+
+.content-container h3 {
+  font-size: 32px;
+}
+
+.hero {
+  background: var(--background-color);
+  padding: 200px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h3 {
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.home-container {
+  padding: 0 30px;
+}
+
+.btn-outline {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  font-family: var(--sub-heading-font-family);
+  font-size: 18px;
+  font-style: italic;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-outline:hover {
+  background-color: var(--accent-color);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-fill {
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  color: white;
+  font-family: var(--sub-heading-font-family);
+  font-size: 18px;
+  font-style: italic;
+  padding: 15px 25px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-fill:hover {
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+footer .email-link a {
+  color: var(--paragraph-color);
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+}
+
+footer .email-link a:hover {
+  color: var(--accent-color);
+}
+
+.img-fluid {
+  display: block;
+  margin: auto 0px;
+}
+
+nav .logo {
+  color: var(--accent-color);
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  letter-spacing: 0.6rem;
+  line-height: 60px;
+  text-shadow: 2px 2px 3px var(--background-color);
+  text-transform: uppercase;
+}
+
+.project-description {
+  margin: 0 30px;
+}
+
+footer .social-icons a {
+  background-color: var(--background-color);
+  border-radius: 50%;
+  color: var(--accent-color);
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-icons a:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+footer .work-inquiry {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  margin: 40px 0;
+  padding: 40px 120px;
+}
+
+@media (max-width: 992px) {
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  nav li {
+    margin-left: 5px;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .content-container h2 {
+    font-size: 28px;
+  }
+
+  .logo {
+    font-size: 20px;
+    letter-spacing: 0.4rem;
+    line-height: 60px;
+    text-shadow: 2px 2px 3px var(--background-color);
+    text-transform: uppercase;
+  }
+}
