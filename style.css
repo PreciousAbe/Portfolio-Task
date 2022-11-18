@@ -3,13 +3,15 @@
   --secondary-color: #f4b083; 
   --default-color: ;
   --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
-  --default-font-family: "poppins" sans-serif;
+  --default-font-family:  'Courier New', Courier, monospace;;
 }
 
 body {
   /*margin: 60px auto;
   max-width: 800px; */
-  font-family: "poppins" sans-serif;
+  padding: 10 auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
   background-color: rgb(250, 247, 247);
 } 
 
@@ -27,7 +29,7 @@ p {
 }
 
 .header p {
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   color: #272142;
   margin: 0;
   font-size: 36px;
@@ -102,7 +104,7 @@ a:hover{
   border: none;
   border-radius: 4px;
   color: white;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-size: 18px;
    font-style: italic; 
   padding: 5px 15px;
@@ -235,7 +237,7 @@ nav a:hover, nav li.active a {
   width: 400px; 
 }*/
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   body {
     text-align: center;
   }
@@ -256,7 +258,7 @@ nav a:hover, nav li.active a {
     font-size: 22px;
   }
   .header {
-    padding: 100px 20px;
+    padding: 40px;
   }
   .content-container h2 {
     font-size: 28px;
@@ -270,3 +272,25 @@ nav a:hover, nav li.active a {
 
   }
 }
+  @media (min-width: 300px) {
+    body {
+    text-align: center;
+    margin: 0;
+  }
+  .project-detail {
+    padding: 0;
+    text-align: center;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h4{
+    font-size: 22px;
+  }
+  .header {
+    padding: 40px;
+  }
+  p {
+    font-size: 35px;
+  }
+  }
